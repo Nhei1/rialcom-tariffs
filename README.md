@@ -34,7 +34,7 @@
 2. Скачайте проект и установите зависимости:
 
    ```powershell
-   git clone <ссылка на репозиторий>
+   git clone [<ссылка на репозиторий>](https://github.com/Nhei1/rialcom-tariffs.git)
    cd rialcom-tariffs
    poetry install
    ```
