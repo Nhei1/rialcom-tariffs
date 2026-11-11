@@ -31,10 +31,17 @@
    Установщик кладёт `poetry` в `%APPDATA%\Python\Scripts`. Если команда `poetry` не находится,
    добавьте эту папку в `PATH` и перезапустите терминал. Проверка: `poetry --version`.
 
+   Если официальный установщик не сработал (нет запускателя `py`, мешает прокси или политика
+   PowerShell), поставьте Poetry через pip:
+
+   ```powershell
+   pip install poetry
+   ```
+
 2. Скачайте проект и установите зависимости:
 
    ```powershell
-   git clone <ссылка на репозиторий>
+   git clone https://github.com/Nhei1/rialcom-tariffs.git
    cd rialcom-tariffs
    poetry install
    ```
